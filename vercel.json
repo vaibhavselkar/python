@@ -1,6 +1,6 @@
 {
   "rewrites": [
-    { "source": "/api/(.*)", "destination": "/api/index" }, // Redirect API requests to /api/index
-    { "source": "/(.*)", "destination": "/index" } // Redirect other requests to /index
+    { "source": "/api/(.*)", "destination": "/api/index" },
+    { "source": "/(.*)", "destination": "/index" }
   ]
 }
